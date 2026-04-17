@@ -48,10 +48,6 @@ The pipeline follows the industry-standard **Medallion (Lakehouse) Architecture*
 └─────────────────────────────────────┘
 ```
 
-> Architecture diagrams available in [`architecture/`](./architecture/)
-
----
-
 ## 🛠️ Technologies Used
 
 | Tool | Purpose |
@@ -221,52 +217,6 @@ apple-data-engineering-pipeline/
 
 ---
 
-## 🚀 How to Run
-
-### Prerequisites
-- Databricks workspace with Unity Catalog enabled
-- Databricks Runtime 12.x or above (with Apache Spark 3.3+)
-- GitHub repo connected via Databricks Repos
-
-### Steps
-
-**1. Clone the repository into Databricks Repos**
-```
-Databricks UI → Repos → Add Repo → Paste GitHub URL
-```
-
-**2. Upload sample data to Unity Catalog Volumes**
-```
-Upload files from data_sample/ to your designated Unity Catalog Volume path
-```
-
-**3. Run the Bronze ingestion notebook**
-```python
-# Reads raw CSVs from Volumes and writes Delta tables
-# No transformations applied at this layer
-```
-
-**4. Run the Silver transformation notebook**
-```python
-# Normalizes product names
-# Joins customers + products + transactions
-# Writes unified Silver Delta table
-```
-
-**5. Run the Gold analytics notebook**
-```python
-# Applies window functions
-# Identifies AirPods-after-iPhone purchase sequences
-# Writes curated Gold Delta table
-```
-
-**6. View results in Databricks**
-```python
-display(airpods_after_iphone)
-```
-
----
-
 ## 🎯 Skills Demonstrated
 
 - ✅ End-to-end ETL pipeline design on Databricks
@@ -283,7 +233,7 @@ display(airpods_after_iphone)
 
 ## 📬 Contact
 
-Built by **[Your Name]** · [LinkedIn](https://linkedin.com/in/yourprofile) · [GitHub](https://github.com/yourusername)
+Built by **[Ashitha Raj Uppalapati]** · [LinkedIn](https://linkedin.com/in/ashitha-u) · [GitHub](https://github.com/AshithaUppalapati)
 
 ---
 
