@@ -1,4 +1,4 @@
-# 🍎 Apple Retail Data Engineering Pipeline
+# Apple Retail Data Engineering Pipeline
 
 > An end-to-end Lakehouse pipeline built on **Apache Spark** and **Databricks** — ingesting raw retail transaction data, cleaning and enriching it through a Bronze → Silver → Gold architecture, and surfacing customer purchase-sequence insights using Delta Lake.
 
