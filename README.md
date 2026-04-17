@@ -8,6 +8,7 @@ Apple retail teams need to understand cross-product purchase behavior to run eff
 
 🏗️ Architecture Overview
 The pipeline follows the industry-standard Medallion (Lakehouse) Architecture:
+```plaintext
 [Raw CSVs]
     │
     ▼
@@ -33,9 +34,7 @@ The pipeline follows the industry-standard Medallion (Lakehouse) Architecture:
 │  • AirPods-after-iPhone detection   │
 │  • Curated insight datasets         │
 └─────────────────────────────────────┘
-
-Architecture diagrams available in architecture/
-
+```
 
 🛠️ Technologies Used
 ToolPurposeApache Spark (PySpark)Distributed data processing and transformationsDatabricksUnified analytics platform and notebook executionDelta LakeACID-compliant storage with time travel supportUnity Catalog VolumesManaged storage for raw CSV ingestionPythonPipeline logic and modular source codeGitHub + Databricks ReposVersion control and CI/CD integration
