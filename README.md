@@ -7,7 +7,7 @@ Apple Retail Data Engineering Pipeline
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white)
 ---
 📌 Business Problem
-****Apple retail teams need to understand cross-product purchase behavior to run effective upsell campaigns. This pipeline identifies customers who purchased AirPods immediately after buying an iPhone — a high-value signal for targeted marketing and inventory planning.****
+Apple retail teams need to understand cross-product purchase behavior to run effective upsell campaigns. This pipeline identifies customers who purchased AirPods immediately after buying an iPhone — a high-value signal for targeted marketing and inventory planning.
 ---
 🏗️ Architecture Overview
 The pipeline follows the industry-standard Medallion (Lakehouse) Architecture:
@@ -38,16 +38,14 @@ The pipeline follows the industry-standard Medallion (Lakehouse) Architecture:
 │  • Curated insight datasets         │
 └─────────────────────────────────────┘
 ```
-> Architecture diagrams available in [`architecture/`](./architecture/)
----
 🛠️ Technologies Used
-Tool	Purpose
-Apache Spark (PySpark)	Distributed data processing and transformations
-Databricks	Unified analytics platform and notebook execution
-Delta Lake	ACID-compliant storage with time travel support
-Unity Catalog Volumes	Managed storage for raw CSV ingestion
-Python	Pipeline logic and modular source code
-GitHub + Databricks Repos	Version control and CI/CD integration
+|Tool	| Purpose |
+|Apache Spark (PySpark) |Distributed data processing and transformations |
+|Databricks | Unified analytics platform and notebook execution |
+|Delta Lake	| ACID-compliant storage with time travel support |
+|Unity Catalog Volumes	| Managed storage for raw CSV ingestion |
+|Python	| Pipeline logic and modular source code |
+|GitHub + Databricks Repos	| Version control and CI/CD integration |
 ---
 📂 Dataset Description
 Three input CSV files drive the pipeline:
