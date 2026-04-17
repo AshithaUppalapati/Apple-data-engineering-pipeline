@@ -205,14 +205,14 @@ display(airpods_after_iphone)
 ```
 ---
 🎯 Skills Demonstrated
-✅ End-to-end ETL pipeline design on Databricks|
-✅ Spark DataFrame transformations (filter, join, withColumn, when)|
-✅ Window functions (`lag()`) for purchase sequence analysis|
-✅ Delta Lake for ACID-compliant, versioned storage|
-✅ Medallion (Bronze → Silver → Gold) Lakehouse architecture|
-✅ Data cleaning and product name normalization strategies|
-✅ Unity Catalog Volumes for managed file ingestion|
-✅ Modular Python source code (`src/` layer separation)|
-✅ Databricks Repos + GitHub integration for version control|
+✅ End-to-end ETL pipeline design on Databricks
+✅ Spark DataFrame transformations (filter, join, withColumn, when)
+✅ Window functions (`lag()`) for purchase sequence analysis
+✅ Delta Lake for ACID-compliant, versioned storage
+✅ Medallion (Bronze → Silver → Gold) Lakehouse architecture
+✅ Data cleaning and product name normalization strategies
+✅ Unity Catalog Volumes for managed file ingestion
+✅ Modular Python source code (`src/` layer separation)
+✅ Databricks Repos + GitHub integration for version control
 ---
 This project was built as part of a data engineering portfolio to demonstrate real-world Lakehouse pipeline skills using Apache Spark and Databricks.
